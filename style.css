@@ -1,0 +1,16 @@
+.cont_principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+}
+
+.cont_izq {
+    display: grid;
+    grid-column-start: 2;
+    background-color: #3F51B5;
+}
+
+.cont_der {
+    display: grid;
+    grid-column-start: 3;
+    background-color: #ECEFF1;
+}
