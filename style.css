@@ -1,16 +1,110 @@
+/*
+    -Tipo de distribucion
+    -Columnas y dimensiones
+    -Color fondo
+*/
 .cont_principal {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr;
+    background-color: #17202A;
 }
 
+/*
+    -Tipo de distribucion
+    -Columna de comienzo del contenido
+    -Color fondo
+*/
 .cont_izq {
     display: grid;
     grid-column-start: 2;
     background-color: #3F51B5;
 }
 
+/*
+    -Tipo de distribucion
+    -Columna de comienzo del contenido
+    -Color fondo
+*/
 .cont_der {
     display: grid;
     grid-column-start: 3;
     background-color: #ECEFF1;
+}
+
+/*
+    -Alto
+    -Ancho
+    -Relleno derecha
+*/
+.cont_izq .img_cv {
+    height: 100%;
+    width: 100%;
+    padding-top: 10%;
+}
+
+/*
+    -Tipo de distribucion
+    -Columnas y dimensiones
+*/
+.cont_izq .cont_contacto {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+/*
+
+*/
+.cont_izq .cont_contacto h3{
+    display: grid; 
+    grid-column-start: 2;
+    text-align: center;
+    padding-top: 25%;
+}
+
+/*
+
+*/
+.cont_contacto_izq {
+    display: grid;
+    grid-column-start: 1;
+    background-color: #ECEFF1;
+}
+.cont_contacto_der {
+    display: grid;
+    grid-column-start: 2;
+    background-color: #3F51B5;
+}
+
+/*
+
+*/
+.cont_izq .cont_habilidades {
+    display: grid;
+    text-align: center;
+}
+
+/*
+
+*/
+.cont_habilidades table {
+    display: grid;
+    margin: auto;
+
+}
+
+/*
+
+*/
+.cont_izq .cont_software {
+    display: grid;
+    text-align: center;
+}
+
+/*
+
+*/
+.cont_software table {
+    display: grid;
+    margin: auto;
+
 }
