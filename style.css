@@ -1,3 +1,6 @@
+body {
+    background-color: #17202A;
+}
 /*
     -Tipo de distribucion
     -Columnas y dimensiones
@@ -5,8 +8,7 @@
 */
 .cont_principal {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
-    background-color: #17202A;
+    grid-template-columns: 1fr 1fr 2fr 1fr;    
 }
 
 /*
@@ -59,20 +61,41 @@
     grid-column-start: 2;
     text-align: center;
     padding-top: 25%;
+    color: #ffffff;
 }
 
 /*
 
 */
 .cont_contacto_izq {
+    
     display: grid;
     grid-column-start: 1;
-    background-color: #ECEFF1;
+    background-color: #3F51B5;
 }
+
+.cont_contacto_izq .figura1 {
+    width: 90%;
+    height: 80%;
+    background-color: #ffffff;
+    border-radius: 0% 15% 15% 0%;
+}
+
 .cont_contacto_der {
     display: grid;
     grid-column-start: 2;
     background-color: #3F51B5;
+}
+
+.cont_contacto_der ul {
+    list-style: none;
+    margin-top: 0%;
+    padding-left: 15%;
+}
+
+.cont_contacto_der ul li{
+    padding-top: 15px;
+    padding-bottom: 10%;
 }
 
 /*
@@ -80,7 +103,23 @@
 */
 .cont_izq .cont_habilidades {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+}
+
+.cont_izq .cont_habilidades h3{
+    display: grid; 
+    grid-column-start: 2;
+    text-align: center;
+    padding-top: 25%;
+    color: #ffffff;
+}
+
+.figura2 {
+    width: 90%;
+    height: 80%;
+    background-color: #ff0000;
+    border-radius: 0% 15% 15% 0%;
 }
 
 /*
@@ -100,6 +139,15 @@
     text-align: center;
 }
 
+.cont_software h3{
+    display: grid; 
+    grid-column-start: 2;
+    text-align: center;
+    padding-top: 25%;
+    color: #ffffff;
+}
+
+
 /*
 
 */
@@ -107,4 +155,23 @@
     display: grid;
     margin: auto;
 
+}
+
+.cont_hobbies h3{
+    display: grid; 
+    grid-column-start: 2;
+    text-align: center;
+    padding-top: 25%;
+    color: #ffffff;
+    
+    
+}
+
+.cont_der .cont_info h3 {
+    color: #ffffff;
+    border: solid #3F51B5;
+    border-radius: 20% 20% 20% 20%;
+    background-color: #3F51B5;
+    padding-left: 20px;
+    border-width: 5px;
 }
